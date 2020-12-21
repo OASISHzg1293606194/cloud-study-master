@@ -1,9 +1,13 @@
 package com.hzg.cloud.controller;
 
+import com.hzg.cloud.balancestrategy.BasicBalanceStrategy;
 import com.hzg.cloud.entities.CommonResult;
 import com.hzg.cloud.entities.Payment;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.http.ResponseEntity;
+import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,6 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
+import java.net.URI;
+import java.util.List;
 
 /**
  * @author HaungZhiGao
@@ -34,6 +40,12 @@ public class OrderController {
 
     @Resource
     private RestTemplate restTemplate;
+
+    @Resource
+    private DiscoveryClient discoveryClient;
+
+    @Resource
+    private BasicBalanceStrategy basicBalanceStrategy;
 
     @GetMapping("/payment/create")
     public CommonResult<Payment> create(Payment payment) {
@@ -59,4 +71,14 @@ public class OrderController {
         return entity.getBody();
     }
 
+    @GetMapping("/payment/getLoadBalancer")
+    public String getLoadBalancer() {
+        List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PAYMENT-SERVICE");
+        if (!CollectionUtils.isEmpty(instances)) {
+            ServiceInstance serviceInstance = basicBalanceStrategy.serverInstance(instances);
+            URI uri = serviceInstance.getUri();
+            return restTemplate.getForObject(uri + "/payment/getLoadBalancer", String.class);
+        }
+        return null;
+    }
 }

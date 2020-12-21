@@ -65,4 +65,9 @@ public class PaymentController {
         return this.discoveryClient;
     }
 
+    @GetMapping("/getLoadBalancer")
+    public String getLoadBalancer() {
+        return serverPort;
+    }
+
 }
