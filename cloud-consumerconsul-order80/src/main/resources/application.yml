@@ -1,0 +1,16 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: cloud-orderconsul-service
+  cloud:
+    consul:
+      host: http://127.0.0.1
+      #host: http://121.196.163.155
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+        #告诉consul按声明的ip注册服务的地址，避免ServiceCheck时的no such host问题
+        #prefer-ip-address: true
+        #ip-address: 192.168.3.113
