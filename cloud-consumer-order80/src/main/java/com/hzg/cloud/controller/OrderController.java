@@ -17,6 +17,7 @@ import org.springframework.web.client.RestTemplate;
 import javax.annotation.Resource;
 import java.net.URI;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author HaungZhiGao
@@ -27,7 +28,7 @@ import java.util.List;
 @RequestMapping("/customer")
 public class OrderController {
 
-    /** 
+    /**
      * 单机版的支付服务
      */
     // public static final String PAYMENT_URL = "http://localhost:8001";
@@ -81,4 +82,10 @@ public class OrderController {
         }
         return null;
     }
+
+    @GetMapping("/payment/zipkin")
+    public String paymentZipkin() {
+        return restTemplate.getForObject("http://localhost:8001" + "/payment/zipkin", String.class);
+    }
+
 }
