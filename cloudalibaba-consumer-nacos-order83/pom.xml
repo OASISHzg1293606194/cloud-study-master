@@ -12,7 +12,7 @@
     <artifactId>cloudalibaba-consumer-nacos-order83</artifactId>
 
     <dependencies>
-        <!--SpringCloud ailibaba nacos -->
+        <!--SpringCloud alibaba nacos -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>

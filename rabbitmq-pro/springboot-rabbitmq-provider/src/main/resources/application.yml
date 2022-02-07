@@ -1,0 +1,9 @@
+spring:
+  rabbitmq:
+    host: 192.168.213.225 # 服务IP
+    port: 5672 # 端口号
+    username: admin # 用户名、密码
+    password: admin
+    virtual-host: /admin-vhost # 虚拟分区
+    publisher-confirms: true # 开启确认模式confirm
+    publisher-returns: true # 开启回退模式return

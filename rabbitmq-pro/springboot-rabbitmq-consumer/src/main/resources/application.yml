@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    host: 192.168.213.225 # 服务IP
+    port: 5672 # 端口号
+    username: admin # 用户名、密码
+    password: admin
+    virtual-host: /admin-vhost # 虚拟分区
+    listener:
+      simple:
+        acknowledge-mode: manual
+        prefetch: 2 # 前提确认模式为manual，perfetch表示消费端每次从mq中拉取的消息数量，直到当前批次消息确认消费完毕后才会拉取下一批

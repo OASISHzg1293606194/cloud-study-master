@@ -31,10 +31,31 @@
     <file url="file://$PROJECT_DIR$/cloudalibaba-provider-payment9003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-provider-payment9004" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/crawler-study-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-pro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-pro/dubbo-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-pro/dubbo-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-study-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-study-demo/dubbo-echo-demo-annotation-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-study-demo/dubbo-echo-demo-annotation-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-study-demo/dubbo-echo-demo-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-study-demo/dubbo-echo-demo-api-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-study-demo/dubbo-echo-demo-api-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-study-demo/dubbo-echo-demo-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-study-demo/dubbo-echo-demo-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/guava-study-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/interview-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leecode-pro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-generator-gui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-study-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pattern-study-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/principle-study-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-pro" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/seata-account-service2003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/seata-order-service2001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/seata-storage-service2002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/skywalking-study-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper-curator-pro" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -43,6 +43,16 @@
         <module>seata-order-service2001</module>
         <module>seata-storage-service2002</module>
         <module>seata-account-service2003</module>
+        <module>interview-demo</module>
+        <module>principle-study-demo</module>
+        <module>pattern-study-demo</module>
+        <module>crawler-study-demo</module>
+        <module>dubbo-study-demo</module>
+        <module>netty-study-demo</module>
+        <module>dubbo-pro</module>
+        <module>zookeeper-curator-pro</module>
+        <module>rabbitmq-pro</module>
+        <module>leecode-pro</module>
     </modules>
 
 
@@ -59,7 +69,7 @@
         <mybatis.spring.boot.version>1.3.0</mybatis.spring.boot.version>
     </properties>
 
-    <!-- 子模块继承之后，提供作用：锁定版本+子modlue不用写groupId和version  -->
+    <!-- 子模块继承之后，提供作用：锁定版本+子module不用写groupId和version  -->
     <dependencyManagement>
         <dependencies>
             <!--spring boot 2.2.2-->
@@ -121,7 +131,7 @@
     </dependencyManagement>
 
     <build>
-        <finalName>cloud-study-2020</finalName>
+        <!--<finalName>cloud-study-2020</finalName>-->
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

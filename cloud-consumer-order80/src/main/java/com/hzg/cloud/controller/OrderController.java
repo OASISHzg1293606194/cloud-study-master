@@ -17,7 +17,6 @@ import org.springframework.web.client.RestTemplate;
 import javax.annotation.Resource;
 import java.net.URI;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @author HaungZhiGao

@@ -38,15 +38,36 @@
         <module name="cloudalibaba-provider-payment9003" />
         <module name="cloudalibaba-provider-payment9004" />
         <module name="cloudalibaba-sentinel-service8401" />
+        <module name="crawler-study-demo" />
+        <module name="dubbo-echo-demo-annotation-consumer" />
+        <module name="dubbo-echo-demo-annotation-provider" />
+        <module name="dubbo-echo-demo-api" />
+        <module name="dubbo-echo-demo-api-consumer" />
+        <module name="dubbo-echo-demo-api-provider" />
+        <module name="dubbo-echo-demo-consumer" />
+        <module name="dubbo-echo-demo-provider" />
+        <module name="dubbo-interface" />
+        <module name="dubbo-pojo" />
+        <module name="dubbo-service" />
+        <module name="dubbo-web" />
         <module name="guava-study-demo" />
+        <module name="interview-demo" />
+        <module name="leecode-pro" />
+        <module name="netty-study-demo" />
+        <module name="pattern-study-demo" />
+        <module name="principle-study-demo" />
+        <module name="rabbitmq-consumer" />
+        <module name="rabbitmq-provider" />
         <module name="seata-account-service2003" />
         <module name="seata-order-service2001" />
         <module name="seata-storage-service2002" />
+        <module name="skywalking-study-demo" />
+        <module name="spring-rabbitmq-consumer" />
+        <module name="spring-rabbitmq-provider" />
+        <module name="springboot-rabbitmq-consumer" />
+        <module name="springboot-rabbitmq-provider" />
+        <module name="zookeeper-curator-pro" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cloud-provider-payment8004" target="1.8" />
-      <module name="cloud-provider-payment8006" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
