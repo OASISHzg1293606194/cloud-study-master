@@ -1,0 +1,38 @@
+server:
+  port: 8083
+  servlet:
+    contest-path: / # 不配置默认为/
+
+spring:
+  application:
+    name: springboot-admin-server
+  security:
+    user:
+      name: 'admin'
+      password: 'admin'
+  mail:
+    host: smtp.163.com
+    username: 18670589931@163.com
+    password: GDEELVFOZOSUYSYG
+  boot:
+    admin:
+      notify:
+        mail:
+          enabled: true
+          from: 18670589931@163.com
+          to: 1293606194@qq.com
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://localhost:8848 # 访问nacos注册中心获取服务信息，springboot-admin展示服务信息，前提是其他服务集成了actuator
+        username: nacos
+        password: nacos
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always

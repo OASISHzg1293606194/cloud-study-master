@@ -1,7 +1,6 @@
 package com.hzg.rabbitmq.pro;
 
 import com.hzg.rabbitmq.pro.config.RabbitmqConfig;
-import com.sun.org.apache.bcel.internal.generic.NEW;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.amqp.core.Message;

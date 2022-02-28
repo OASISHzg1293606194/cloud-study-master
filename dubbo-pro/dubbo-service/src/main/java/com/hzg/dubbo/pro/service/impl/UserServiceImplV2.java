@@ -4,8 +4,6 @@ import com.hzg.dubbo.pro.pojo.User;
 import com.hzg.dubbo.pro.service.UserService;
 import org.apache.dubbo.config.annotation.Service;
 
-import java.util.concurrent.TimeUnit;
-
 /**
  * @Package: com.hzg.dubbo.pro.service.impl
  * @Description:

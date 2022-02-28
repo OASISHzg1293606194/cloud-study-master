@@ -41,7 +41,7 @@ public class OrderFeignHystrixController {
         return "80服务反馈：系统繁忙，请10s后再试！ -- " + Thread.currentThread().getName();
     }
 
-    /** 
+    /**
      * 全局服务降级
      *
      * @return java.lang.String

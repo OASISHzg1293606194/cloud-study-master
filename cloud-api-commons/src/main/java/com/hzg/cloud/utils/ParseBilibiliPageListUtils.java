@@ -4,7 +4,6 @@ package com.hzg.cloud.utils;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.common.base.Joiner;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.IOException;

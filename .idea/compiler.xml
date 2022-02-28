@@ -7,6 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="actuator-admin-server" />
+        <module name="actuator-demo" />
+        <module name="apollo-study-demo" />
         <module name="cloud-api-commons" />
         <module name="cloud-config-center-3344" />
         <module name="cloud-config-client-3355" />
@@ -52,7 +55,9 @@
         <module name="dubbo-web" />
         <module name="guava-study-demo" />
         <module name="interview-demo" />
+        <module name="jmx-test" />
         <module name="leecode-pro" />
+        <module name="minio-study-demo" />
         <module name="netty-study-demo" />
         <module name="pattern-study-demo" />
         <module name="principle-study-demo" />

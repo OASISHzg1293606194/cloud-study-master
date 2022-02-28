@@ -53,6 +53,9 @@
         <module>zookeeper-curator-pro</module>
         <module>rabbitmq-pro</module>
         <module>leecode-pro</module>
+        <module>minio-study-demo</module>
+        <module>springboot-actuator-pro</module>
+        <module>apollo-study-demo</module>
     </modules>
 
 

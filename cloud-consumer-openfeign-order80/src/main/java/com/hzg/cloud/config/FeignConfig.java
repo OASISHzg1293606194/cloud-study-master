@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class FeignConfig {
 
-    /** 
+    /**
      * feign客户端日志级别设置<br/>
      *
      * @return feign.Logger.Level

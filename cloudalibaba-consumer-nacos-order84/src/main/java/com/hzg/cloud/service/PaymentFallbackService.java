@@ -5,7 +5,6 @@ import com.hzg.cloud.entities.Payment;
 import org.springframework.stereotype.Component;
 
 
-
 @Component
 public class PaymentFallbackService implements PaymentService {
     @Override

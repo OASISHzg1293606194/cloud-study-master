@@ -1,0 +1,19 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: minio-demo-server
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+## minio配置信息
+minio:
+  enabled: true
+  endpoint: "http://192.168.213.225:9000"
+  accessKey: "admin"
+  secretKey: "oasishzg"

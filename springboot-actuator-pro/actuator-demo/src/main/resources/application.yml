@@ -1,0 +1,48 @@
+server:
+  port: 8082
+  shutdown: graceful # immediate 默认为直接关闭
+  servlet:
+    context-path: / # 不配置默认为/
+
+spring:
+  application:
+    name: springboot-admin-client
+  boot:
+    admin:
+      client:
+        url: http://localhost:8083 # 配置springboot-admin-server的服务地址
+        username: 'admin'
+        password: 'admin' # springboot-admin服务端集成SpringSecurity，需要配置用户名、密码
+        instance:
+          prefer-ip: true # false默认使用电脑设备名称，true启用ip注册实例
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3308/db2020?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
+  jmx:
+    enabled: true  # false默认关闭，开启JMX可以在jconsole中看到所有端点
+
+management:
+  endpoints:
+    enabled-by-default: true        # 默认开启为true
+    web:
+      exposure:
+        include: '*'                # 默认为 ['health', 'info']
+      base-path: /oasis-actuator    # 默认为/actuator
+  endpoint:
+    health:
+      show-details: always # 默认为never，查看健康状况的详细信息
+    shutdown:
+      enabled: true # false默认不启用
+
+# 配置文件定义info端点，但是缺少灵活性，建议使用代码就行自定义配置
+#info:
+#  appName: springboot-admin-client
+#  appVersion: V2.0.6
+
+# 如果要在actuator或者远程查看日志，必须把日志存储到日志文件中
+logging:
+  file:
+    name: ./springboot-actuator-pro/logs/service.log

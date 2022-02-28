@@ -46,10 +46,10 @@ public class OrderOpenFeignController {
         return paymentServiceClient.getLoadBalancer();
     }
 
-    /** 
+    /**
      * 用于演示openFeign调用超时<br/>
      * openfeign-ribbon 客户端调用一般等待1s钟<br/>
-     * 
+     *
      * @return java.lang.String
      * @author HuangZhiGao
      * @date 2020-12-21 09:48:41
