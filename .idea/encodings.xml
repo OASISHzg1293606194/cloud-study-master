@@ -3,6 +3,7 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apollo-study-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canal-sync-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-api-commons" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-config-center-3344" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-config-client-3355" charset="UTF-8" />
@@ -32,6 +33,7 @@
     <file url="file://$PROJECT_DIR$/cloudalibaba-provider-payment9003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-provider-payment9004" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/crawler-actual" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/crawler-study-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-pro" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-pro/dubbo-interface" charset="UTF-8" />
@@ -51,6 +53,8 @@
     <file url="file://$PROJECT_DIR$/leecode-pro" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/minio-study-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-generator-gui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-plus-study-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-study-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty-study-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pattern-study-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/principle-study-demo" charset="UTF-8" />

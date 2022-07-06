@@ -16,7 +16,7 @@ public class ConnectionPool {
     private Vector<Connection> pool;
     private int poolSize = 100;
 
-    private String jdbcUrl = "jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&useSSL=false";
+    private String jdbcUrl = "jdbc:mysql://localhost:3306/controller?useUnicode=true&characterEncoding=utf-8&useSSL=false";
     private String username = "root";
     private String password = "root";
     private String driverClazz = "org.gjt.mm.mysql.Driver";

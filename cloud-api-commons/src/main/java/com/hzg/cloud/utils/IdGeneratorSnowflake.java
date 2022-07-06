@@ -46,7 +46,7 @@ public class IdGeneratorSnowflake {
 
         IdGeneratorSnowflake snowflake = new IdGeneratorSnowflake();
         ExecutorService threadPool = Executors.newFixedThreadPool(5);
-        for (int i = 1; i <= 20; i++) {
+        for (int i = 1; i <= 2; i++) {
             threadPool.submit(() -> {
                 System.out.println(snowflake.snowflakeId());
             });

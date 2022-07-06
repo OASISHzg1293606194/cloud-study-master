@@ -48,7 +48,7 @@ public class RabbitmqConsumer {
              * autoDelete   是否自动删除-没有消费者时自动删除
              * arguments    参数
              */
-            channel.queueDeclare("test-queue", true, false, false, null);
+            channel.queueDeclare("controller-queue", true, false, false, null);
 
             // 6、消费消息
             /**
@@ -57,7 +57,7 @@ public class RabbitmqConsumer {
              * callback     回调对象-监听
              */
             Consumer consumer = getDefaultConsumer(channel);
-            channel.basicConsume("test-queue", true, consumer);
+            channel.basicConsume("controller-queue", true, consumer);
             System.out.println("================================>msg receive finished");
 
             // 不关闭资源-监听并接收消息

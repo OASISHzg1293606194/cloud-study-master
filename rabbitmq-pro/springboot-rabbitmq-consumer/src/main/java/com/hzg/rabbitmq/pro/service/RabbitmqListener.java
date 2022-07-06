@@ -82,7 +82,7 @@ public class RabbitmqListener {
     }
 
 
-    // @RabbitListener(queues = "test-temp-queue")
+    // @RabbitListener(queues = "controller-temp-queue")
     public void rabbitmqListenerTemp(Message message, Channel channel) throws Exception {
         System.out.println("~~~~~~~~~~~~~~~temp正常消费~~~~~~~~~~~~~~~");
         System.out.println(message);
@@ -92,7 +92,7 @@ public class RabbitmqListener {
         channel.basicNack(message.getMessageProperties().getDeliveryTag(), false, false);
     }
 
-    @RabbitListener(queues = "test-dlx-queue")
+    @RabbitListener(queues = "controller-dlx-queue")
     public void rabbitmqListenerDlx(Message message, Channel channel) throws Exception {
         System.out.println("~~~~~~~~~~~~~~~DLX死信交换机消费~~~~~~~~~~~~~~~");
         System.out.println(message);

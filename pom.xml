@@ -56,6 +56,10 @@
         <module>minio-study-demo</module>
         <module>springboot-actuator-pro</module>
         <module>apollo-study-demo</module>
+        <module>crawler-actual</module>
+        <module>mybatis-plus-study-demo</module>
+        <module>mybatis-study-demo</module>
+        <module>canal-sync-demo</module>
     </modules>
 
 

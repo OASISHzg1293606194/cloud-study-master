@@ -4,77 +4,68 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="631c5da2-9e23-4bb4-97fe-cc4fe6565f4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apollo-study-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/minio-study-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/minio-study-demo/src/main/java/com/hzg/minio/MinioStudyDemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/minio-study-demo/src/main/java/com/hzg/minio/config/MinioConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/minio-study-demo/src/main/java/com/hzg/minio/config/MinioProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/minio-study-demo/src/main/java/com/hzg/minio/demo/FileDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/minio-study-demo/src/main/java/com/hzg/minio/demo/FileUploader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/minio-study-demo/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/actuator-admin-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/actuator-admin-server/src/main/java/com/hzg/actuator/pro/ActuatorAdminServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/actuator-admin-server/src/main/java/com/hzg/actuator/pro/config/SpringSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/actuator-admin-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/ActuatorApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/config/ShutdownConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/config/TerminateBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/controller/ShutdownController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/endpoint/CustomerAppInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/endpoint/CustomerHealthIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/endpoint/MyServiceEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/jmx-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/jmx-test/src/main/java/com/hzg/jmx/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/jmx-test/src/main/java/com/hzg/jmx/HelloAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/jmx-test/src/main/java/com/hzg/jmx/HelloMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-actuator-pro/pom.xml" afterDir="false" />
+    <list default="true" id="631c5da2-9e23-4bb4-97fe-cc4fe6565f4e" name="Default Changelist" comment="feat: 2022-02-28提交">
+      <change afterPath="$PROJECT_DIR$/apollo-study-demo/src/main/java/com/hzg/apollo/StudyApolloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apollo-study-demo/src/main/java/com/hzg/apollo/config/RefreshApolloConfigListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apollo-study-demo/src/main/java/com/hzg/apollo/controller/ApolloConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apollo-study-demo/src/main/java/com/hzg/apollo/test/ApolloConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apollo-study-demo/src/main/resources/apollo-env.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apollo-study-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apollo-study-demo/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canal-sync-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canal-sync-demo/src/main/java/com/hzg/canal/CanalClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/botv/BotvCrawler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/lmts/LmtsImageCrawler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler-actual/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler-actual/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/StudyMybatisPlusApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/config/FastAutoGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/constants/BaseConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/constants/enums/DeletedEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/pojo/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/pojo/enums/SexEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/test/java/com/hzg/mybatisplus/MybatisPlusDSTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/test/java/com/hzg/mybatisplus/MybatisPlusEnumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/test/java/com/hzg/mybatisplus/MybatisPlusPluginsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/test/java/com/hzg/mybatisplus/MybatisPlusServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/test/java/com/hzg/mybatisplus/MybatisPlusTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-study-demo/src/test/java/com/hzg/mybatisplus/MybatisPlusWrapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-study-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-study-demo/src/main/java/com/hzg/mybatis/StudyMybatisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-study-demo/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apollo-study-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apollo-study-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/dpcd/DpcqImageCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/dpcq/DpcqImageCrawler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/utils/IdGeneratorSnowflake.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/utils/IdGeneratorSnowflake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/utils/ParseBilibiliPageListUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/utils/ParseBilibiliPageListUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/hzg/cloud/controller/OrderFeignHystrixController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/hzg/cloud/controller/OrderFeignHystrixController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/hzg/cloud/config/FeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/hzg/cloud/config/FeignConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/hzg/cloud/controller/OrderOpenFeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/hzg/cloud/controller/OrderOpenFeignController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/hzg/cloud/controller/ConfigClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/hzg/cloud/controller/ConfigClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/hzg/cloud/service/PaymentFallbackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/hzg/cloud/service/PaymentFallbackService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/hzg/cloud/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/hzg/cloud/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crawler-study-demo/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-study-demo/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-pro/dubbo-service/src/main/java/com/hzg/dubbo/pro/service/impl/UserServiceImplV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-pro/dubbo-service/src/main/java/com/hzg/dubbo/pro/service/impl/UserServiceImplV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-pro/dubbo-service/src/main/resources/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-pro/dubbo-service/src/main/resources/spring/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-pro/dubbo-web/src/main/java/com/hzg/dubbo/pro/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-pro/dubbo-web/src/main/java/com/hzg/dubbo/pro/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-pro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-pro/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview-demo/src/main/java/com.hzg.interview/first/singleton/seriable/SeriableSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview-demo/src/main/java/com.hzg.interview/first/singleton/seriable/SeriableSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/MainUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/bridge/MybatisGeneratorBridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/bridge/MybatisGeneratorBridge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/controller/BaseFXController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/controller/BaseFXController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/controller/FXMLPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/controller/FXMLPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/controller/GeneratorConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/controller/GeneratorConfigController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/controller/MainUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/controller/MainUIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/controller/NewConnectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/controller/NewConnectionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/controller/SelectTableColumnController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/controller/SelectTableColumnController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/model/DatabaseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/model/DatabaseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/model/GeneratorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/model/GeneratorConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/plugins/DbRemarksCommentGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/plugins/DbRemarksCommentGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava-study-demo/src/main/java/com/hzg/guava/utilites/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/guava-study-demo/src/main/java/com/hzg/guava/utilites/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio-study-demo/src/main/java/com/hzg/minio/demo/FileDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/minio-study-demo/src/main/java/com/hzg/minio/demo/FileDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio-study-demo/src/main/java/com/hzg/minio/demo/FileUploader.java" beforeDir="false" afterPath="$PROJECT_DIR$/minio-study-demo/src/main/java/com/hzg/minio/demo/FileUploader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/plugins/MySQLLimitPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/plugins/MySQLLimitPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/util/ConfigHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/util/ConfigHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/util/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/util/ConnectionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/util/DbUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/util/DbUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/util/MyStringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/util/MyStringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/view/LeftDbTreeCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/view/LeftDbTreeCell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/view/UIProgressCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/view/UIProgressCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-gui/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-gui/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern-study-demo/src/main/java/com.hzg.pattern/flyweight/pool/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern-study-demo/src/main/java/com.hzg.pattern/flyweight/pool/ConnectionPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-pro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-pro/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq-pro/rabbitmq-consumer/src/main/java/com/hzg/rabbitmq/pro/RabbitmqConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-pro/rabbitmq-consumer/src/main/java/com/hzg/rabbitmq/pro/RabbitmqConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-pro/rabbitmq-consumer/src/main/java/com/hzg/rabbitmq/pro/RabbitmqConsumer_PubSub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-pro/rabbitmq-consumer/src/main/java/com/hzg/rabbitmq/pro/RabbitmqConsumer_PubSub1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-pro/rabbitmq-provider/src/main/java/com/hzg/rabbitmq/pro/RabbitmqProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-pro/rabbitmq-provider/src/main/java/com/hzg/rabbitmq/pro/RabbitmqProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-pro/springboot-rabbitmq-consumer/src/main/java/com/hzg/rabbitmq/pro/service/RabbitmqListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-pro/springboot-rabbitmq-consumer/src/main/java/com/hzg/rabbitmq/pro/service/RabbitmqListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-pro/springboot-rabbitmq-provider/src/main/java/com/hzg/rabbitmq/pro/config/RabbitmqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-pro/springboot-rabbitmq-provider/src/main/java/com/hzg/rabbitmq/pro/config/RabbitmqConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq-pro/springboot-rabbitmq-provider/src/test/java/com/hzg/rabbitmq/pro/ProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-pro/springboot-rabbitmq-provider/src/test/java/com/hzg/rabbitmq/pro/ProviderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skywalking-study-demo/src/main/java/com/hzg/skywalking/SkyWalkingTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/skywalking-study-demo/src/main/java/com/hzg/skywalking/SkyWalkingTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-curator-pro/src/test/java/TicketLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper-curator-pro/src/test/java/TicketLock.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cloud-consumer-order80/target/" />
     <ignored path="$PROJECT_DIR$/cloud-consumer-openfeign-order80/target/" />
@@ -148,11 +139,18 @@
     <ignored path="$PROJECT_DIR$/springboot-actuator-pro/jmx-test/target/" />
     <ignored path="$PROJECT_DIR$/springboot-actuator-pro/actuator-admin-server/target/" />
     <ignored path="$PROJECT_DIR$/apollo-study-demo/target/" />
+    <ignored path="$PROJECT_DIR$/crawler-actual/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis-plus-study-demo/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis-study-demo/target/" />
+    <ignored path="$PROJECT_DIR$/canal-sync-demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -168,7 +166,18 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="mybatis_plus@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mybatis_plus@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mybatis_plus@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mybatis_plus: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -177,17 +186,17 @@
     <session id="-785401894">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="134" />
+          <entry key="project.closed" value="171" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.100" value="1" />
           <entry key="project.open.time.103" value="1" />
           <entry key="project.open.time.104" value="1" />
           <entry key="project.open.time.106" value="3" />
-          <entry key="project.open.time.107" value="1" />
+          <entry key="project.open.time.107" value="2" />
           <entry key="project.open.time.108" value="1" />
           <entry key="project.open.time.109" value="1" />
           <entry key="project.open.time.110" value="1" />
-          <entry key="project.open.time.111" value="3" />
+          <entry key="project.open.time.111" value="4" />
           <entry key="project.open.time.112" value="1" />
           <entry key="project.open.time.113" value="2" />
           <entry key="project.open.time.116" value="1" />
@@ -195,34 +204,43 @@
           <entry key="project.open.time.119" value="2" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.121" value="1" />
-          <entry key="project.open.time.123" value="1" />
-          <entry key="project.open.time.124" value="1" />
+          <entry key="project.open.time.123" value="2" />
+          <entry key="project.open.time.124" value="2" />
           <entry key="project.open.time.125" value="3" />
+          <entry key="project.open.time.126" value="1" />
           <entry key="project.open.time.127" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.130" value="1" />
-          <entry key="project.open.time.131" value="1" />
-          <entry key="project.open.time.132" value="1" />
+          <entry key="project.open.time.131" value="3" />
+          <entry key="project.open.time.132" value="2" />
+          <entry key="project.open.time.134" value="2" />
           <entry key="project.open.time.135" value="1" />
+          <entry key="project.open.time.137" value="1" />
           <entry key="project.open.time.138" value="2" />
           <entry key="project.open.time.141" value="1" />
-          <entry key="project.open.time.142" value="1" />
+          <entry key="project.open.time.142" value="2" />
           <entry key="project.open.time.143" value="2" />
           <entry key="project.open.time.145" value="2" />
+          <entry key="project.open.time.147" value="1" />
+          <entry key="project.open.time.149" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.152" value="1" />
+          <entry key="project.open.time.154" value="1" />
           <entry key="project.open.time.157" value="1" />
           <entry key="project.open.time.158" value="1" />
           <entry key="project.open.time.159" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.160" value="1" />
+          <entry key="project.open.time.162" value="1" />
           <entry key="project.open.time.163" value="1" />
           <entry key="project.open.time.165" value="2" />
           <entry key="project.open.time.166" value="1" />
           <entry key="project.open.time.167" value="1" />
+          <entry key="project.open.time.169" value="1" />
           <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.170" value="1" />
           <entry key="project.open.time.174" value="1" />
+          <entry key="project.open.time.178" value="1" />
           <entry key="project.open.time.179" value="1" />
           <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.19" value="2" />
@@ -230,108 +248,124 @@
           <entry key="project.open.time.196" value="1" />
           <entry key="project.open.time.198" value="1" />
           <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.202" value="1" />
+          <entry key="project.open.time.203" value="1" />
           <entry key="project.open.time.205" value="1" />
           <entry key="project.open.time.206" value="1" />
           <entry key="project.open.time.21" value="6" />
           <entry key="project.open.time.22" value="3" />
+          <entry key="project.open.time.229" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="3" />
+          <entry key="project.open.time.243" value="1" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.262" value="1" />
+          <entry key="project.open.time.266" value="1" />
           <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.278" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.33" value="3" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.36" value="2" />
           <entry key="project.open.time.367" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.41" value="2" />
+          <entry key="project.open.time.410" value="1" />
           <entry key="project.open.time.412" value="1" />
           <entry key="project.open.time.42" value="2" />
           <entry key="project.open.time.43" value="2" />
           <entry key="project.open.time.432" value="1" />
-          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.44" value="2" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.48" value="2" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.55" value="2" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.55" value="3" />
+          <entry key="project.open.time.57" value="2" />
+          <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.67" value="2" />
+          <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.85" value="1" />
           <entry key="project.open.time.88" value="1" />
           <entry key="project.open.time.92" value="1" />
-          <entry key="project.open.time.93" value="4" />
+          <entry key="project.open.time.93" value="5" />
           <entry key="project.open.time.94" value="1" />
           <entry key="project.open.time.95" value="1" />
           <entry key="project.open.time.96" value="1" />
-          <entry key="project.opened" value="141" />
+          <entry key="project.opened" value="178" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="1" />
-          <entry key="class" value="63" />
+          <entry key="botv_page" value="1" />
+          <entry key="class" value="84" />
           <entry key="conf" value="6" />
           <entry key="css" value="1" />
           <entry key="fxml" value="1" />
           <entry key="html" value="2" />
-          <entry key="java" value="906" />
+          <entry key="java" value="1026" />
           <entry key="jpg" value="2" />
           <entry key="log" value="1" />
           <entry key="md" value="6" />
           <entry key="pid" value="2" />
           <entry key="png" value="9" />
-          <entry key="pom" value="57" />
-          <entry key="properties" value="22" />
+          <entry key="pom" value="70" />
+          <entry key="properties" value="30" />
+          <entry key="sql" value="2" />
           <entry key="txt" value="7" />
-          <entry key="xml" value="313" />
+          <entry key="xml" value="346" />
           <entry key="xsd" value="1" />
           <entry key="yaml" value="1" />
-          <entry key="yml" value="135" />
+          <entry key="yml" value="160" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="63" />
+          <entry key="CLASS" value="84" />
           <entry key="CSS" value="1" />
+          <entry key="Database Element" value="1" />
           <entry key="HTML" value="2" />
           <entry key="Image" value="11" />
-          <entry key="JAVA" value="906" />
+          <entry key="JAVA" value="1026" />
           <entry key="Manifest" value="1" />
           <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Properties" value="22" />
-          <entry key="XML" value="372" />
-          <entry key="YAML" value="136" />
+          <entry key="Properties" value="30" />
+          <entry key="Scratch" value="2" />
+          <entry key="XML" value="418" />
+          <entry key="YAML" value="161" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="MF" value="35" />
-          <entry key="dummy" value="29" />
-          <entry key="java" value="42979" />
-          <entry key="properties" value="74" />
-          <entry key="txt" value="2755" />
-          <entry key="xml" value="1855" />
-          <entry key="yml" value="2513" />
+          <entry key="dummy" value="44" />
+          <entry key="java" value="53127" />
+          <entry key="properties" value="75" />
+          <entry key="txt" value="2767" />
+          <entry key="xml" value="2381" />
+          <entry key="yml" value="3224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="42979" />
+          <entry key="JAVA" value="53127" />
           <entry key="Manifest" value="35" />
-          <entry key="PLAIN_TEXT" value="2784" />
-          <entry key="Properties" value="74" />
-          <entry key="SQL" value="6" />
-          <entry key="XML" value="1849" />
-          <entry key="YAML" value="2513" />
+          <entry key="PLAIN_TEXT" value="2811" />
+          <entry key="Properties" value="75" />
+          <entry key="SQL" value="32" />
+          <entry key="XML" value="2349" />
+          <entry key="YAML" value="3224" />
         </counts>
       </usages-collector>
     </session>
@@ -342,51 +376,80 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/minio-study-demo/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/utils/IdGeneratorSnowflake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="646">
+              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-pro/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/utils/ParseBilibiliPageListUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="178">
+              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apollo-study-demo/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apollo-study-demo/src/main/java/com/hzg/apollo/controller/ApolloConfigController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apollo-study-demo/src/main/java/com/hzg/apollo/config/RefreshApolloConfigListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-36">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apollo-study-demo/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apollo-study-demo/src/main/resources/apollo-env.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apollo-study-demo/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="190">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="file://$PROJECT_DIR$/apollo-study-demo/src/main/java/com/hzg/apollo/test/ApolloConfigTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-245">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apollo-study-demo/src/main/java/com/hzg/apollo/StudyApolloApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="91" column="37" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-pro/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="10" selection-start-line="10" selection-end-line="16" selection-end-column="17" />
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -398,10 +461,11 @@
       <list>
         <option value="HTML File" />
         <option value="JUnit4 Test Class" />
-        <option value="Mybatis Mapper" />
         <option value="Singleton" />
         <option value="package-info" />
         <option value="spring-beans.schema" />
+        <option value="Mybatis Mapper" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -409,29 +473,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>spring-cloud-starter-bootstrap</find>
-      <find>LoadBalance</find>
-      <find>UTC</find>
-      <find>source</find>
-      <find>project.build.sourceEncoding</find>
-      <find>utf-8&quot;;</find>
-      <find>&quot;UTF-8&quot;</find>
-      <find>System.in.read();</find>
-      <find>in</find>
-      <find>queueDeclare</find>
-      <find>com.itheima.rabbitmq.listener</find>
-      <find>spring-boot-starter-test</find>
-      <find>confirm</find>
-      <find>=====</find>
-      <find>NO_ROUTE</find>
-      <find>x-message-ttl</find>
-      <find>spring-boot-starter-amqp</find>
-      <find>boot-starter</find>
-      <find>-test</find>
-      <find>include: '*'</find>
-      <find>/rateLimit/byUrl</find>
-      <find>shutdown</find>
-      <find>graceful</find>
       <find>{noop}</find>
       <find>NOOP_PASSWORD_PREFIX</find>
       <find>maven.compiler.source</find>
@@ -439,11 +480,35 @@
       <find>org.springframework.cloud</find>
       <find>@RequestParam</find>
       <find>globalRegistry</find>
+      <find>characterEncoding</find>
+      <find>starter-web</find>
+      <find>slf4j</find>
+      <find>@Slf4j</find>
+      <find>slf4j-api</find>
+      <find>getAppConfig</find>
+      <find>new NodeTraversor(new OuterHtmlVisitor(accum, getOutputSettings())).traverse(this);</find>
+      <find>app_manhua</find>
+      <find>headers</find>
+      <find>listFiles</find>
+      <find>downloadImage</find>
+      <find>QueryUserAddressList</find>
+      <find>lombok.version</find>
+      <find>mysql.version</find>
+      <find>gson</find>
+      <find>gson.version</find>
+      <find>guava</find>
+      <find>hutool</find>
+      <find>cloud-api-commons</find>
+      <find>Rslt</find>
+      <find>.and(</find>
+      <find>freemarker.version</find>
+      <find>isEm</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>dubbo-version</replace>
       <replace>com.hzg.rabbitmq.pro.listener</replace>
+      <replace>Result</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -452,49 +517,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rabbitmq-pro/spring-rabbitmq-provider/src/main/java/com/hzg/rabbitmq/pro/ProviderTest.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/spring-rabbitmq-consumer/src/main/resources/spring-rabbitmq-consumer.xml" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/spring-rabbitmq-consumer/src/main/java/com/hzg/rabbitmq/pro/listener/SpringQueueListener.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/spring-rabbitmq-consumer/src/main/java/com/hzg/rabbitmq/pro/listener/FanoutListener1.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/spring-rabbitmq-consumer/src/main/java/com/hzg/rabbitmq/pro/listener/FanoutListener2.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/spring-rabbitmq-consumer/src/main/java/com/hzg/rabbitmq/pro/listener/TopicListenerStar.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/spring-rabbitmq-consumer/src/main/java/com/hzg/rabbitmq/pro/listener/TopicListenerWell.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/spring-rabbitmq-consumer/src/main/java/com/hzg/rabbitmq/pro/listener/TopicListenerWell2.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/rabbitmq-provider/src/main/java/com/hzg/rabbitmq/pro/RabbitmqProvider.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/spring-rabbitmq-provider/src/main/java/com/hzg/rabbitmq/pro/config/RabbitmqConfig.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/spring-rabbitmq-provider/src/test/java/ProviderTest.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/springboot-rabbitmq-provider/src/test/java/ProviderTest.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/springboot-rabbitmq-provider/src/main/java/com/hzg/rabbitmq/pro/RabbitmqProviderApplication.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/springboot-rabbitmq-consumer/src/main/java/com/hzg/rabbitmq/pro/RabbitmqConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/springboot-rabbitmq-consumer/src/main/java/com/hzg/rabbitmq/pro/service/ConsumerAckListener.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/springboot-rabbitmq-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/springboot-rabbitmq-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/springboot-rabbitmq-provider/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/springboot-rabbitmq-consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/springboot-rabbitmq-consumer/src/main/java/com/hzg/rabbitmq/pro/service/RabbitmqListener.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/springboot-rabbitmq-provider/src/main/java/com/hzg/rabbitmq/pro/config/RabbitmqConfig.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-pro/springboot-rabbitmq-provider/src/test/java/com/hzg/rabbitmq/pro/ProviderTest.java" />
-        <option value="$PROJECT_DIR$/minio-study-demo/src/main/java/com/hzg/minio/MinioStudyDemoMain.java" />
-        <option value="$PROJECT_DIR$/minio-study-demo/src/main/java/com/hzg/minio/demo/FileDownloader.java" />
-        <option value="$PROJECT_DIR$/minio-study-demo/src/main/java/com/hzg/minio/demo/FileUploader.java" />
-        <option value="$PROJECT_DIR$/minio-study-demo/src/main/java/com/hzg/minio/config/MinioProperties.java" />
-        <option value="$PROJECT_DIR$/minio-study-demo/src/main/java/com/hzg/minio/config/MinioConfig.java" />
-        <option value="$PROJECT_DIR$/minio-study-demo/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springboot-actuator-pro/jmx-test/src/main/java/com/hzg/jmx/HelloMBean.java" />
-        <option value="$PROJECT_DIR$/springboot-actuator-pro/jmx-test/src/main/java/com/hzg/jmx/HelloAgent.java" />
-        <option value="$PROJECT_DIR$/springboot-actuator-pro/jmx-test/src/main/java/com/hzg/jmx/Hello.java" />
-        <option value="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/config/TerminateBean.java" />
-        <option value="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/config/ShutdownConfig.java" />
-        <option value="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/ActuatorApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/controller/ShutdownController.java" />
-        <option value="$PROJECT_DIR$/springboot-actuator-pro/actuator-admin-server/src/main/java/com/hzg/actuator/pro/ActuatorAdminServerApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-actuator-pro/actuator-admin-server/src/main/java/com/hzg/actuator/pro/config/SpringSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/springboot-actuator-pro/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-actuator-pro/actuator-admin-server/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-actuator-pro/actuator-admin-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/endpoint/CustomerHealthIndicator.java" />
-        <option value="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/endpoint/CustomerAppInfo.java" />
-        <option value="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/endpoint/MyServiceEndpoint.java" />
@@ -502,7 +524,50 @@
         <option value="$PROJECT_DIR$/minio-study-demo/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-pro/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-pro/dubbo-interface/src/main/java/com/hzg/dubbo/pro/service/UserService.java" />
+        <option value="$PROJECT_DIR$/apollo-study-demo/src/main/java/com/hzg/apollo/StudyApolloApplication.java" />
+        <option value="$PROJECT_DIR$/crawler-study-demo/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/apollo-study-demo/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/apollo-study-demo/src/main/java/com/hzg/apollo/config/RefreshApolloConfig.java" />
+        <option value="$PROJECT_DIR$/apollo-study-demo/src/main/java/com/hzg/apollo/controller/ApolloConfigController.java" />
+        <option value="$PROJECT_DIR$/apollo-study-demo/src/main/java/com/hzg/apollo/config/RefreshApolloConfigListener.java" />
+        <option value="$PROJECT_DIR$/apollo-study-demo/src/main/java/com/hzg/apollo/test/ApolloConfigTest.java" />
+        <option value="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/lmts/LmtsImageCrawler.java" />
+        <option value="$PROJECT_DIR$/apollo-study-demo/src/main/resources/apollo-env.properties" />
+        <option value="$PROJECT_DIR$/apollo-study-demo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/botv/BotvCrawler.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" />
+        <option value="$PROJECT_DIR$/crawler-actual/pom.xml" />
         <option value="$PROJECT_DIR$/apollo-study-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/constants/BaseConstants.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/constants/enums/DeletedEnum.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/service/UserService.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/test/java/com/hzg/mybatisplus/MybatisPlusServiceTest.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/test/java/com/hzg/mybatisplus/MybatisPlusTest.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/test/java/com/hzg/mybatisplus/MybatisPlusWrapperTest.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/StudyMybatisPlusApplication.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/pojo/Product.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/test/java/com/hzg/mybatisplus/MybatisPlusPluginsTest.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/pojo/User.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/pojo/enums/SexEnum.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/test/java/com/hzg/mybatisplus/MybatisPlusEnumTest.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/config/FastAutoGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/test/java/com/hzg/mybatisplus/MybatisPlusDSTest.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/resources/mapper/ProductMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/mapper/ProductMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis-study-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-study-demo/src/main/java/com/hzg/mybatis/StudyMybatisApplication.java" />
+        <option value="$PROJECT_DIR$/canal-sync-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/canal-sync-demo/src/main/java/com/hzg/canal/CanalClient.java" />
+        <option value="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/utils/IdGeneratorSnowflake.java" />
+        <option value="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/utils/ParseBilibiliPageListUtils.java" />
       </list>
     </option>
   </component>
@@ -527,7 +592,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="canal-sync-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="canal-sync-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -617,27 +692,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="cloud-study-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-study-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-study-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-study-master" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-study-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-study-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-study-master" type="462c0819:PsiDirectoryNode" />
-              <item name="minio-study-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -668,20 +722,73 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cloud-study-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-study-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-study-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-study-master" type="462c0819:PsiDirectoryNode" />
+              <item name="apollo-study-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-study-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-study-master" type="462c0819:PsiDirectoryNode" />
+              <item name="apollo-study-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-study-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-study-master" type="462c0819:PsiDirectoryNode" />
+              <item name="apollo-study-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-study-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-study-master" type="462c0819:PsiDirectoryNode" />
+              <item name="apollo-study-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-study-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-study-master" type="462c0819:PsiDirectoryNode" />
+              <item name="apollo-study-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="apollo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-study-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="discoveryComposite&#9;FILE&#9;jar://D:/Maven/localhostRepository/org/springframework/cloud/spring-cloud-commons/2.2.1.RELEASE/spring-cloud-commons-2.2.1.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/health/DiscoveryCompositeHealthContributor.java&#10;status-changed&#9;FILE&#9;jar://D:/Maven/localhostRepository/de/codecentric/spring-boot-admin-server/2.3.1/spring-boot-admin-server-2.3.1.jar!/META-INF/spring-boot-admin-server/mail/status-changed.html&#10;service.log&#9;FILE&#9;file://D:/ideaIU2018.2.5ForDev/cloud-study-master/dubbo-pro/logs/service.log&#10;LoadBalance&#9;FILE&#9;jar://D:/Maven/localhostRepository/com/alibaba/dubbo-cluster/2.6.5/dubbo-cluster-2.6.5.jar!/com/alibaba/dubbo/rpc/cluster/LoadBalance.class&#10;Cluster&#9;PSI&#9;JAVA://com.alibaba.dubbo.rpc.cluster.Cluster&#10;Loadbalance&#9;PSI&#9;JAVA://org.apache.dubbo.rpc.cluster.LoadBalance" />
+    <property name="SearchEverywhereHistoryKey" value="ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList&#10;log4j.properties&#9;FILE&#9;file://D:/ideaIU2018.2.5ForDev/cloud-study-master/zookeeper-curator-pro/src/main/resources/log4j.properties&#10;discoveryComposite&#9;FILE&#9;jar://D:/Maven/localhostRepository/org/springframework/cloud/spring-cloud-commons/2.2.1.RELEASE/spring-cloud-commons-2.2.1.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/health/DiscoveryCompositeHealthContributor.java&#10;status-changed&#9;FILE&#9;jar://D:/Maven/localhostRepository/de/codecentric/spring-boot-admin-server/2.3.1/spring-boot-admin-server-2.3.1.jar!/META-INF/spring-boot-admin-server/mail/status-changed.html&#10;service.log&#9;FILE&#9;file://D:/ideaIU2018.2.5ForDev/cloud-study-master/dubbo-pro/logs/service.log&#10;LoadBalance&#9;FILE&#9;jar://D:/Maven/localhostRepository/com/alibaba/dubbo-cluster/2.6.5/dubbo-cluster-2.6.5.jar!/com/alibaba/dubbo/rpc/cluster/LoadBalance.class&#10;Cluster&#9;PSI&#9;JAVA://com.alibaba.dubbo.rpc.cluster.Cluster&#10;Loadbalance&#9;PSI&#9;JAVA://org.apache.dubbo.rpc.cluster.LoadBalance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1646021708957" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1657088155012" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -696,16 +803,15 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaIU2018.2.5ForDev\cloud-study-master\skywalking-study-demo\src" />
+      <recent name="D:\ideaIU2018.2.5ForDev\cloud-study-master\skywalking-study-demo\META-INF" />
+      <recent name="D:\ideaIU2018.2.5ForDev\cloud-study-master\guava-study-demo" />
+      <recent name="D:\ideaIU2018.2.5ForDev\cloud-study-master\cloud-provider-payment8001" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.hzg.rabbitmq.pro" />
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ideaIU2018.2.5ForDev\cloud-study-master\rabbitmq-pro\springboot-rabbitmq-consumer\src\main\resources" />
-      <recent name="D:\ideaIU2018.2.5ForDev\cloud-study-master\rabbitmq-pro\spring-rabbitmq-consumer\src\main\resources" />
-      <recent name="D:\ideaIU2018.2.5ForDev\cloud-study-master\rabbitmq-pro\spring-rabbitmq-provider\src\main\resources" />
-      <recent name="D:\ideaIU2018.2.5ForDev\cloud-study-master\zookeeper-curator-pro\src\main\resources" />
-      <recent name="D:\ideaIU2018.2.5ForDev\cloud-study-master\dubbo-pro\dubbo-service\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hzg.minio.demo" />
@@ -714,11 +820,12 @@
       <recent name="" />
       <recent name="com.hzg.dubbo.pro.service.impl" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ideaIU2018.2.5ForDev\cloud-study-master\skywalking-study-demo\src" />
-      <recent name="D:\ideaIU2018.2.5ForDev\cloud-study-master\skywalking-study-demo\META-INF" />
-      <recent name="D:\ideaIU2018.2.5ForDev\cloud-study-master\guava-study-demo" />
-      <recent name="D:\ideaIU2018.2.5ForDev\cloud-study-master\cloud-provider-payment8001" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaIU2018.2.5ForDev\cloud-study-master\apollo-study-demo\src\main\resources" />
+      <recent name="D:\ideaIU2018.2.5ForDev\cloud-study-master\rabbitmq-pro\springboot-rabbitmq-consumer\src\main\resources" />
+      <recent name="D:\ideaIU2018.2.5ForDev\cloud-study-master\rabbitmq-pro\spring-rabbitmq-consumer\src\main\resources" />
+      <recent name="D:\ideaIU2018.2.5ForDev\cloud-study-master\rabbitmq-pro\spring-rabbitmq-provider\src\main\resources" />
+      <recent name="D:\ideaIU2018.2.5ForDev\cloud-study-master\zookeeper-curator-pro\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -737,15 +844,15 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.22102009" />
+    <option name="contentProportion" value="0.17928903" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ActuatorAdminServerApplication">
-    <configuration name="FileDownloader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzg.minio.demo.FileDownloader" />
-      <module name="minio-study-demo" />
+  <component name="RunManager" selected="Application.ParseBilibiliPageListUtils">
+    <configuration name="CanalClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzg.canal.CanalClient" />
+      <module name="canal-sync-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzg.minio.demo.*" />
+          <option name="PATTERN" value="com.hzg.canal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -753,12 +860,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloAgent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hzg.jmx.HelloAgent" />
-      <module name="jmx-test" />
+    <configuration name="IdGeneratorSnowflake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzg.cloud.utils.IdGeneratorSnowflake" />
+      <module name="cloud-api-commons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzg.jmx.*" />
+          <option name="PATTERN" value="com.hzg.cloud.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -766,28 +873,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActuatorAdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="actuator-admin-server" />
+    <configuration name="ParseBilibiliPageListUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzg.cloud.utils.ParseBilibiliPageListUtils" />
+      <module name="cloud-api-commons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzg.actuator.pro.*" />
+          <option name="PATTERN" value="com.hzg.cloud.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hzg.actuator.pro.ActuatorAdminServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActuatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="actuator-demo" />
+    <configuration name="MybatisPlusDSTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-study-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hzg.actuator.pro.*" />
+          <option name="PATTERN" value="com.hzg.mybatisplus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hzg.actuator.pro.ActuatorApplication" />
+      <option name="PACKAGE_NAME" value="com.hzg.mybatisplus" />
+      <option name="MAIN_CLASS_NAME" value="com.hzg.mybatisplus.MybatisPlusDSTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusWrapperTest.testWherePriority" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-study-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzg.mybatisplus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hzg.mybatisplus" />
+      <option name="MAIN_CLASS_NAME" value="com.hzg.mybatisplus.MybatisPlusWrapperTest" />
+      <option name="METHOD_NAME" value="testWherePriority" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -849,19 +975,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinioStudyDemoMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="minio-study-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hzg.minio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hzg.minio.MinioStudyDemoMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1096,19 +1209,19 @@
       <item itemvalue="Spring Boot.SentinelMain8401" />
       <item itemvalue="Spring Boot.SeataOrderMainApp2001" />
       <item itemvalue="Spring Boot.SeataAccountMainApp2003" />
-      <item itemvalue="Application.FileDownloader" />
-      <item itemvalue="Spring Boot.MinioStudyDemoMain" />
-      <item itemvalue="Spring Boot.ActuatorApplication" />
-      <item itemvalue="Application.HelloAgent" />
-      <item itemvalue="Spring Boot.ActuatorAdminServerApplication" />
+      <item itemvalue="JUnit.MybatisPlusDSTest.test" />
+      <item itemvalue="Application.ParseBilibiliPageListUtils" />
+      <item itemvalue="JUnit.MybatisPlusWrapperTest.testWherePriority" />
+      <item itemvalue="Application.CanalClient" />
+      <item itemvalue="Application.IdGeneratorSnowflake" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ActuatorApplication" />
-        <item itemvalue="Spring Boot.ActuatorAdminServerApplication" />
-        <item itemvalue="Application.HelloAgent" />
-        <item itemvalue="Spring Boot.MinioStudyDemoMain" />
-        <item itemvalue="Application.FileDownloader" />
+        <item itemvalue="Application.ParseBilibiliPageListUtils" />
+        <item itemvalue="Application.IdGeneratorSnowflake" />
+        <item itemvalue="Application.CanalClient" />
+        <item itemvalue="JUnit.MybatisPlusWrapperTest.testWherePriority" />
+        <item itemvalue="JUnit.MybatisPlusDSTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -1262,7 +1375,44 @@
       <workItem from="1644977001793" duration="4489000" />
       <workItem from="1645062268832" duration="2116000" />
       <workItem from="1645410080221" duration="30000" />
-      <workItem from="1646014745012" duration="2664000" />
+      <workItem from="1646014745012" duration="7144000" />
+      <workItem from="1646051303236" duration="1598000" />
+      <workItem from="1646099058114" duration="9848000" />
+      <workItem from="1646135880949" duration="1152000" />
+      <workItem from="1646189591212" duration="2817000" />
+      <workItem from="1646222013073" duration="594000" />
+      <workItem from="1646272300801" duration="9429000" />
+      <workItem from="1646311976971" duration="584000" />
+      <workItem from="1646357804031" duration="14524000" />
+      <workItem from="1646394976698" duration="593000" />
+      <workItem from="1646442048260" duration="5477000" />
+      <workItem from="1646528490144" duration="1135000" />
+      <workItem from="1646617535741" duration="1790000" />
+      <workItem from="1646816925266" duration="596000" />
+      <workItem from="1647681523654" duration="1796000" />
+      <workItem from="1647690017493" duration="1560000" />
+      <workItem from="1647777235924" duration="515000" />
+      <workItem from="1647827716661" duration="4655000" />
+      <workItem from="1647913996693" duration="7089000" />
+      <workItem from="1648003450659" duration="14621000" />
+      <workItem from="1648085981756" duration="12671000" />
+      <workItem from="1648122654296" duration="2430000" />
+      <workItem from="1648172595190" duration="13422000" />
+      <workItem from="1648212210333" duration="587000" />
+      <workItem from="1648370352670" duration="589000" />
+      <workItem from="1648431742042" duration="18846000" />
+      <workItem from="1648478380777" duration="5009000" />
+      <workItem from="1648517971860" duration="4189000" />
+      <workItem from="1648530500239" duration="102000" />
+      <workItem from="1648530729041" duration="3434000" />
+      <workItem from="1648537590013" duration="3705000" />
+      <workItem from="1648710436694" duration="3272000" />
+      <workItem from="1648777317301" duration="5915000" />
+      <workItem from="1649338376156" duration="1437000" />
+      <workItem from="1649382640422" duration="1698000" />
+      <workItem from="1650534141568" duration="107000" />
+      <workItem from="1655806442961" duration="1450000" />
+      <workItem from="1657087074478" duration="858000" />
     </task>
     <task id="LOCAL-00001" summary="提交.idea项目配置">
       <created>1630159866831</created>
@@ -1299,43 +1449,50 @@
       <option name="project" value="LOCAL" />
       <updated>1644232021279</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: 2022-02-28提交">
+      <created>1646022289322</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1646022289322</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProviderTest_testConsumerAck - 2022.02.01 at 19h 58m 50s.xml">
-      <configuration name="ProviderTest.testConsumerAck" configurationId="JUnit" />
+    <history-entry file="MybatisPlusPluginsTest_testOptimisticLock - 2022.03.28 at 22h 46m 41s.xml">
+      <configuration name="MybatisPlusPluginsTest.testOptimisticLock" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProviderTest_testConsumerAck - 2022.02.01 at 19h 59m 26s.xml">
-      <configuration name="ProviderTest.testConsumerAck" configurationId="JUnit" />
+    <history-entry file="MybatisPlusPluginsTest_testOptimisticLock2 - 2022.03.28 at 22h 52m 34s.xml">
+      <configuration name="MybatisPlusPluginsTest.testOptimisticLock2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProviderTest_testConsumerQos - 2022.02.01 at 20h 19m 48s.xml">
-      <configuration name="ProviderTest.testConsumerQos" configurationId="JUnit" />
+    <history-entry file="MybatisPlusPluginsTest_testOptimisticLock2 - 2022.03.28 at 23h 00m 56s.xml">
+      <configuration name="MybatisPlusPluginsTest.testOptimisticLock2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProviderTest_testMessageTTL - 2022.02.01 at 21h 44m 08s.xml">
-      <configuration name="ProviderTest.testMessageTTL" configurationId="JUnit" />
+    <history-entry file="MybatisPlusEnumTest_test - 2022.03.28 at 23h 24m 04s.xml">
+      <configuration name="MybatisPlusEnumTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProviderTest_testMessageTTL - 2022.02.01 at 21h 46m 50s.xml">
-      <configuration name="ProviderTest.testMessageTTL" configurationId="JUnit" />
+    <history-entry file="MybatisPlusEnumTest_test - 2022.03.28 at 23h 25m 45s.xml">
+      <configuration name="MybatisPlusEnumTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProviderTest_testMessageTTL - 2022.02.01 at 21h 48m 41s.xml">
-      <configuration name="ProviderTest.testMessageTTL" configurationId="JUnit" />
+    <history-entry file="MybatisPlusEnumTest_test - 2022.03.28 at 23h 29m 51s.xml">
+      <configuration name="MybatisPlusEnumTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProviderTest_testQueueTTL - 2022.02.01 at 21h 52m 09s.xml">
-      <configuration name="ProviderTest.testQueueTTL" configurationId="JUnit" />
+    <history-entry file="MybatisPlusEnumTest_test - 2022.03.28 at 23h 30m 40s.xml">
+      <configuration name="MybatisPlusEnumTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProviderTest_testDLX - 2022.02.03 at 13h 26m 57s.xml">
-      <configuration name="ProviderTest.testDLX" configurationId="JUnit" />
+    <history-entry file="MybatisPlusEnumTest_test - 2022.03.28 at 23h 32m 55s.xml">
+      <configuration name="MybatisPlusEnumTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProviderTest_testDLX - 2022.02.03 at 13h 28m 13s.xml">
-      <configuration name="ProviderTest.testDLX" configurationId="JUnit" />
+    <history-entry file="MybatisPlusDSTest_test - 2022.03.29 at 12h 56m 05s.xml">
+      <configuration name="MybatisPlusDSTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProviderTest_testDLX - 2022.02.03 at 13h 36m 59s.xml">
-      <configuration name="ProviderTest.testDLX" configurationId="JUnit" />
+    <history-entry file="MybatisPlusWrapperTest_testWherePriority - 2022.03.29 at 18h 26m 55s.xml">
+      <configuration name="MybatisPlusWrapperTest.testWherePriority" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="768363000" />
+    <option name="totallyTimeSpent" value="932937000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1350,39 +1507,41 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48737374" visible="true" weight="0.20499243" />
-      <window_info id="Structure" order="1" sideWeight="0.51282054" side_tool="true" weight="0.23373677" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47863248" visible="true" weight="0.26626325" />
+      <window_info id="Structure" order="1" sideWeight="0.52047783" side_tool="true" weight="0.26626325" />
       <window_info id="Designer" order="2" />
-      <window_info id="JRebel" order="3" sideWeight="0.51122195" side_tool="true" weight="0.20953101" />
+      <window_info id="JRebel" order="3" sideWeight="0.51449275" side_tool="true" weight="0.08623298" />
       <window_info id="Image Layers" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" sideWeight="0.5126263" side_tool="true" weight="0.19742814" />
       <window_info id="Web" order="8" sideWeight="0.50940174" side_tool="true" weight="0.22012103" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.5623932" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.21709402" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.45299146" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.5623932" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.63086236" weight="0.44786325" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.46324787" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991454" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.124786325" />
       <window_info anchor="bottom" id="Database Changes" order="7" weight="0.32991454" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32991454" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.35555556" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.5504274" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.36913767" side_tool="true" weight="0.36410257" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32991454" />
-      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.1948718" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.1948718" />
       <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" weight="0.32991454" />
       <window_info anchor="bottom" id="JRebel Executor" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.1965812" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.4977307" weight="0.3948718" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3025641" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.4977307" weight="0.5692308" />
+      <window_info anchor="bottom" id="Database Console" order="17" weight="0.32991454" />
+      <window_info anchor="bottom" id="GenProtobuf" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Key Promoter X" order="5" />
-      <window_info anchor="right" id="Database" order="6" sideWeight="0.4991453" weight="0.24962178" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.4991453" weight="0.22390318" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" side_tool="true" weight="0.32980332" />
@@ -1390,7 +1549,7 @@
       <window_info anchor="right" id="Word Book" order="11" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48737374" visible="true" weight="0.15128593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48737374" visible="true" weight="0.22314675" />
       <window_info id="Structure" order="1" sideWeight="0.51282054" side_tool="true" weight="0.23373677" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.51122195" side_tool="true" weight="0.20953101" />
@@ -1400,8 +1559,8 @@
       <window_info id="Favorites" order="7" sideWeight="0.5126263" side_tool="true" weight="0.19742814" />
       <window_info id="Web" order="8" sideWeight="0.50940174" side_tool="true" weight="0.22012103" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.5623932" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.21709402" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.5623932" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.61196584" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.45299146" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1409,13 +1568,13 @@
       <window_info anchor="bottom" id="Database Changes" order="7" weight="0.32991454" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32991454" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.35555556" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.5504274" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.14871795" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32991454" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32991454" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.1948718" />
       <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" weight="0.32991454" />
       <window_info anchor="bottom" id="JRebel Executor" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.41538462" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.4977307" weight="0.52307695" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.1965812" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.4977307" weight="0.44197953" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
@@ -1482,13 +1641,13 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/dpcd/DpcqImageCrawler.java</url>
+          <url>file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/dpcq/DpcqImageCrawler.java</url>
           <line>118</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/dpcd/DpcqImageCrawler.java</url>
+          <url>file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/dpcq/DpcqImageCrawler.java</url>
           <line>112</line>
           <properties />
           <option name="timeStamp" value="21" />
@@ -1511,6 +1670,24 @@
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/apollo-study-demo/src/main/java/com/hzg/apollo/test/ApolloConfigTest.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/lmts/LmtsImageCrawler.java</url>
+          <line>225</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/lmts/LmtsImageCrawler.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -1522,352 +1699,342 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Maven/localhostRepository/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2.2.7.RELEASE/spring-cloud-starter-alibaba-nacos-discovery-2.2.7.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/Maven/localhostRepository/org/springframework/boot/spring-boot-dependencies/2.3.12.RELEASE/spring-boot-dependencies-2.3.12.RELEASE.pom">
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/pojo/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="2418" column="6" selection-start-line="2418" selection-start-column="6" selection-end-line="2418" selection-end-column="6" />
+        <state relative-caret-position="-753">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Maven/localhostRepository/com/alibaba/cloud/spring-cloud-alibaba-dependencies/2.1.0.RELEASE/spring-cloud-alibaba-dependencies-2.1.0.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="357" column="12" selection-start-line="357" selection-start-column="12" selection-end-line="357" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9004/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9003/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/java/com/hzg/cloud/PaymentMain9004.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/java/com/hzg/cloud/PaymentMain9003.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/hzg/cloud/PaymentMain9002.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/hzg/cloud/PaymentMain9001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-actuator-pro/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-206" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Maven/localhostRepository/de/codecentric/spring-boot-admin-server/2.3.1/spring-boot-admin-server-2.3.1.jar!/de/codecentric/boot/admin/server/notify/MailNotifier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Maven/localhostRepository/de/codecentric/spring-boot-admin-server/2.3.1/spring-boot-admin-server-2.3.1.jar!/META-INF/spring-boot-admin-server/mail/status-changed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Maven/localhostRepository/org/springframework/cloud/spring-cloud-commons/2.2.1.RELEASE/spring-cloud-commons-2.2.1.RELEASE.jar!/org/springframework/cloud/client/discovery/health/DiscoveryCompositeHealthIndicator.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://D:/Maven/localhostRepository/org/springframework/cloud/spring-cloud-commons/2.2.1.RELEASE/spring-cloud-commons-2.2.1.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/health/DiscoveryCompositeHealthContributor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Maven/localhostRepository/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar!/org/springframework/context/ApplicationListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Maven/localhostRepository/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE-sources.jar!/org/springframework/core/Ordered.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Maven/localhostRepository/org/springframework/cloud/spring-cloud-commons/2.2.1.RELEASE/spring-cloud-commons-2.2.1.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/health/DiscoveryHealthIndicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Maven/localhostRepository/org/springframework/boot/spring-boot-actuator/2.3.12.RELEASE/spring-boot-actuator-2.3.12.RELEASE-sources.jar!/org/springframework/boot/actuate/health/HealthIndicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Maven/localhostRepository/org/springframework/boot/spring-boot-actuator/2.3.12.RELEASE/spring-boot-actuator-2.3.12.RELEASE-sources.jar!/org/springframework/boot/actuate/system/DiskSpaceHealthIndicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Maven/localhostRepository/org/springframework/cloud/spring-cloud-commons/2.2.1.RELEASE/spring-cloud-commons-2.2.1.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/health/DiscoveryClientHealthIndicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-actuator-pro/actuator-admin-server/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Maven/localhostRepository/org/springframework/boot/spring-boot-actuator/2.3.12.RELEASE/spring-boot-actuator-2.3.12.RELEASE-sources.jar!/org/springframework/boot/actuate/health/AbstractHealthIndicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-actuator-pro/actuator-admin-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Maven/localhostRepository/io/micrometer/micrometer-core/1.5.14/micrometer-core-1.5.14-sources.jar!/io/micrometer/core/instrument/Metrics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="34" column="72" lean-forward="true" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Maven/localhostRepository/io/micrometer/micrometer-core/1.5.14/micrometer-core-1.5.14-sources.jar!/io/micrometer/core/instrument/MeterRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Maven/localhostRepository/io/micrometer/micrometer-core/1.5.14/micrometer-core-1.5.14-sources.jar!/io/micrometer/core/instrument/composite/CompositeMeterRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="39" column="51" lean-forward="true" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Collections.java">
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/constants/enums/DeletedEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="4867" column="8" selection-start-line="4867" selection-start-column="8" selection-end-line="4867" selection-end-column="8" />
+          <caret line="13" selection-start-line="13" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/test/java/com/hzg/mybatisplus/MybatisPlusTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="-999">
+          <caret line="62" column="38" lean-forward="true" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.6.3/spring-boot-dependencies-2.6.3.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="139">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/endpoint/CustomerAppInfo.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.5.1/mybatis-plus-generator-3.5.1.jar!/com/baomidou/mybatisplus/generator/config/StrategyConfig.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state relative-caret-position="126">
+          <caret line="113" column="80" selection-start-line="113" selection-start-column="80" selection-end-line="113" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/controller/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/hzg/cloud/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="126">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-actuator-pro/actuator-admin-server/src/main/java/com/hzg/actuator/pro/config/SpringSecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/pojo/enums/SexEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="399">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/endpoint/CustomerHealthIndicator.java">
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/test/java/com/hzg/mybatisplus/MybatisPlusEnumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="532">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guava-study-demo/src/test/java/com/hzg/guava/utilites/SplitterMainTest.java">
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/config/FastAutoGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="36" />
+        <state relative-caret-position="378">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/endpoint/MyServiceEndpoint.java">
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/test/java/com/hzg/mybatisplus/MybatisPlusPluginsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="265">
+          <caret line="25" selection-start-line="25" selection-end-line="29" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-study-demo/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.5.1/mybatis-plus-extension-3.5.1-sources.jar!/com/baomidou/mybatisplus/extension/service/IService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570" />
+        <state relative-caret-position="1375">
+          <caret line="377" column="20" selection-start-line="377" selection-start-column="20" selection-end-line="377" selection-end-column="20" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="91" column="37" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-pro/pom.xml">
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/test/java/com/hzg/mybatisplus/MybatisPlusDSTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3447aee2-46f4-4875-90f2-180766691603/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/210296c0-7d1e-4a24-82d5-87160e1de36a/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://210296c0-7d1e-4a24-82d5-87160e1de36a/schema/mybatis_plus/table/botv_page">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/main/resources/mapper/ProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/mapper/ProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/main/java/com/hzg/mybatisplus/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" selection-start-line="10" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="-804">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="38" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minio-study-demo/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/mybatis-study-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-pro/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-pro/dubbo-interface/src/main/java/com/hzg/dubbo/pro/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/mybatis-study-demo/src/main/java/com/hzg/mybatis/StudyMybatisApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus-study-demo/src/test/java/com/hzg/mybatisplus/MybatisPlusWrapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="88" column="23" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/otter/canal.client/1.1.2/canal.client-1.1.2.jar!/com/alibaba/otter/canal/client/CanalConnector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="123" column="63" lean-forward="true" selection-start-line="123" selection-start-column="63" selection-end-line="123" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="285" column="23" selection-start-line="285" selection-start-column="19" selection-end-line="285" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canal-sync-demo/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-study-demo/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="15" column="17" selection-start-line="9" selection-start-column="4" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canal-sync-demo/src/main/java/com/hzg/canal/CanalClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1634">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/utils/IdGeneratorSnowflake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/controller/ShutdownController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-278">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/java/com/hzg/actuator/pro/endpoint/CustomerAppInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-actuator-pro/actuator-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-516" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-actuator-pro/actuator-admin-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-actuator-pro/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="46" column="27" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="46" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hzg/cloud/utils/ParseBilibiliPageListUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apollo-study-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apollo-study-demo/src/main/java/com/hzg/apollo/controller/ApolloConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apollo-study-demo/src/main/java/com/hzg/apollo/test/ApolloConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apollo-study-demo/src/main/java/com/hzg/apollo/StudyApolloApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apollo-study-demo/src/main/java/com/hzg/apollo/config/RefreshApolloConfigListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apollo-study-demo/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="190">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apollo-study-demo/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apollo-study-demo/src/main/resources/apollo-env.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

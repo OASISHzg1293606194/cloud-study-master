@@ -23,7 +23,7 @@ public class FileDownloader {
                     .credentials(MINIO_SERVER_USERNAME, MINIO_SERVER_PASSWORD)
                     .build();
 
-            String bucketName = "java-demo-test-bucket";
+            String bucketName = "java-demo-controller-bucket";
             // 上传文件
             minioClient.downloadObject(
                     DownloadObjectArgs.builder()

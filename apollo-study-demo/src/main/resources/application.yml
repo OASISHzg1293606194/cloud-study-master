@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+app:
+  id: apollo-study-demo
+apollo:
+  cluster: default
+  bootstrap:
+    enabled: true
+    namespaces: application # 多个namespace用英文逗号分隔
+  meta: http://localhost:8080/
+  cache-dir: D:\Apollo\opt\settings # Windows默认文件位置为C:\opt\settings\server.properties
+
+

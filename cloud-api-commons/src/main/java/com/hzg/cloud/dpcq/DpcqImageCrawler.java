@@ -1,4 +1,4 @@
-package com.hzg.cloud.dpcd;
+package com.hzg.cloud.dpcq;
 
 import com.alibaba.fastjson.JSONArray;
 import com.google.common.collect.Lists;

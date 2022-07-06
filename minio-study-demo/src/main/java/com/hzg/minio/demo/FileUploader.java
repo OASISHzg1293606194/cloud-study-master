@@ -25,7 +25,7 @@ public class FileUploader {
                     .credentials(MINIO_SERVER_USERNAME, MINIO_SERVER_PASSWORD)
                     .build();
 
-            String bucketName = "java-demo-test-bucket";
+            String bucketName = "java-demo-controller-bucket";
             // 判断bucket是否存在
             boolean exists = minioClient.bucketExists(BucketExistsArgs.builder().bucket(bucketName).build());
             if (!exists) {

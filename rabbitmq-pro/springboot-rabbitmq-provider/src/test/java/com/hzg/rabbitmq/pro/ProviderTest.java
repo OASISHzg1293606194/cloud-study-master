@@ -147,9 +147,9 @@ public class ProviderTest {
      */
     @Test
     public void testDLX() {
-        rabbitTemplate.convertAndSend("test-temp-exchange", "direct-temp", "direct-temp: springboot rabbitmq msg");
+        rabbitTemplate.convertAndSend("controller-temp-exchange", "direct-temp", "direct-temp: springboot rabbitmq msg");
         // for (int i = 0; i < 20; i++) {
-        //     rabbitTemplate.convertAndSend("test-temp-exchange", "direct-temp", "direct-temp: springboot rabbitmq msg");
+        //     rabbitTemplate.convertAndSend("controller-temp-exchange", "direct-temp", "direct-temp: springboot rabbitmq msg");
         // }
     }
 }

@@ -45,7 +45,7 @@ public class RabbitmqProvider {
              * autoDelete   是否自动删除-没有消费者时自动删除
              * arguments    参数
              */
-            channel.queueDeclare("test-queue", true, false, false, null);
+            channel.queueDeclare("controller-queue", true, false, false, null);
 
             // 6、发送消息
             /**
@@ -55,7 +55,7 @@ public class RabbitmqProvider {
              * body         消息内容byte
              */
             String msgContent = "不必说";
-            channel.basicPublish("", "test-queue", null, msgContent.getBytes());
+            channel.basicPublish("", "controller-queue", null, msgContent.getBytes());
             System.out.println("================================>msg send finished");
 
             // 关闭资源

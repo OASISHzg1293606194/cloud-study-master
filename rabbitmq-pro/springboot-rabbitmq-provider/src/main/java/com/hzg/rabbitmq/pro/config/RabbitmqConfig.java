@@ -108,8 +108,8 @@ public class RabbitmqConfig {
     }
 
     /********************************TTL 过期时间********************************/
-    public static final String TTL_EXCHANGE_NAME = "test-ttl-exchange";
-    public static final String TTL_QUEUE_NAME = "test-ttl-queue";
+    public static final String TTL_EXCHANGE_NAME = "controller-ttl-exchange";
+    public static final String TTL_QUEUE_NAME = "controller-ttl-queue";
 
     /**
      * 交换机
@@ -139,8 +139,8 @@ public class RabbitmqConfig {
     }
 
     /********************************DLX 死信交换机********************************/
-    public static final String DLX_EXCHANGE_NAME = "test-dlx-exchange";
-    public static final String DLX_QUEUE_NAME = "test-dlx-queue";
+    public static final String DLX_EXCHANGE_NAME = "controller-dlx-exchange";
+    public static final String DLX_QUEUE_NAME = "controller-dlx-queue";
     public static final String DLX_ROUTING_KEY = "direct-dlx";
 
     /**
@@ -170,7 +170,7 @@ public class RabbitmqConfig {
     /********************************用于绑定死信交换机的队列********************************/
     @Bean("bootTempExchange")
     public Exchange bootTempExchange() {
-        return ExchangeBuilder.directExchange("test-temp-exchange").durable(true).build();
+        return ExchangeBuilder.directExchange("controller-temp-exchange").durable(true).build();
     }
 
     @Bean("bootTempQueue")
@@ -184,7 +184,7 @@ public class RabbitmqConfig {
         // 设置队列绑定的死信交换机信息
         arguments.put("x-dead-letter-exchange", DLX_EXCHANGE_NAME);
         arguments.put("x-dead-letter-routing-key", DLX_ROUTING_KEY);
-        return QueueBuilder.durable("test-temp-queue").withArguments(arguments).build();
+        return QueueBuilder.durable("controller-temp-queue").withArguments(arguments).build();
     }
 
     @Bean
